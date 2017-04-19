@@ -74,7 +74,7 @@ body {
 }
 
 .mission-block p {
-	margin: 10px;
+	margin: 15px;
 	padding-right: 30px;
 }
 
@@ -84,6 +84,20 @@ body {
 	margin-right: 20px;
 	float: left;
 	border-radius: 4px;
+}
+
+.button {
+	background-color: #006066;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	border: none;
+	padding: 15px;
+	margin: 20px;
+}
+
+.button:hover {
+	opacity: .9;
 }
 
 .footer {
