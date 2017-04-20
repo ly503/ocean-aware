@@ -1,0 +1,89 @@
+body {
+  background-color: #008080;
+  color: white;
+}
+.logo {
+  background-color: white;
+  width: inherit;
+  height: 150px;
+}
+.wrapper {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  text-align: center;
+  width: 1080px;
+  margin: 150px;
+  margin-top: -15px;
+  color: #00a9a9;
+}
+.image_align{
+  position: absolute;
+  right: 575px;
+  height: 150px;
+  width: 200px;
+}
+.article_1:hover, .article_2:hover, .article_3:hover{
+  color: #93f4f4;
+}
+.article_1, .article_2, .article_3{
+  background-color: rgba(180,180,220,.7);
+  margin: 5px;
+  float: left;
+  width: 320px;
+  height: 480px;
+  color: white;
+  cursor: pointer;
+}
+.article_1{
+  background-image: url('images/debris_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.article_2{
+  background-image: url('images/debris_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.article_3{
+  background-image: url('images/debris_3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  background-color: rgba(150,150,220,.7);
+  /*margin-top: -20px;*/
+  height: 50px;
+}
+h1{
+  font-size: 50px;
+}
+p{
+  font-size: 25px;
+}
+/*ul li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin-left: 380px;
+  font-size: 25px;
+  border: 1px solid black;
+}*/
+.nav:hover{
+  background-color: rgba(0,139,139,.5);
+  width: cover;
+  cursor: pointer;
+}
+.nav {
+  float: left;
+  margin-left: 380px;
+  font-size: 25px;
+  width: cover;
+  padding: 10px;
+
+}
+#pad_1{
+  padding-right: 50px;
+}
+#pad_2{
+  padding-left: 50px;
+}
