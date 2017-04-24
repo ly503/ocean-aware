@@ -21,6 +21,7 @@ body {
   right: 575px;
   height: 150px;
   width: 200px;
+  cursor: pointer;
 }
 .article_1:hover, .article_2:hover, .article_3:hover{
   color: #93f4f4;
