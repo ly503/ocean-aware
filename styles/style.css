@@ -31,9 +31,9 @@
 
 .logo {
 	width: 150px;
-	height: 150px;
 	display: block;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 .nav-left {
@@ -124,3 +124,4 @@ body {
 .social ul li {
 	margin: 10px;
 }
+
